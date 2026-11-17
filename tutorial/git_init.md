@@ -2,7 +2,7 @@
 # 1: iniciar uno en guthib
 - ✅ **Con README** opcional
 # 2: comandos en la terminal
-### inicializar repositorio
+## inicializar repositorio
 ```bash
 git init
 ```
@@ -13,18 +13,19 @@ git branch -M main
 ```bash
 git remote add origin (link_del_repositorio)
 ```
-### agregar archivos
+## preparar repositorio
+### actualizar datos
+```bash
+git pull origin main --allow-unrelated-histories
+```
+### agregar los archivos
 ```bash
 git add .
 ```
 ### guardar cambios (local)
 ```bash
 git commit -m "commit_1"
-```
-### actualizar datos
-```bash
-git pull origin main --allow-unrelated-histories
-```
+```
 ### publicar en github
 ```bash
 git push -u origin main
